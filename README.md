@@ -13,7 +13,7 @@ Kedua mekanisme tersebut akan dikemas dalam arsitektur pipelined, yang akan meme
 Penggunaan :
 Untuk menggunakan sistem rekomendasi ini, pengguna hanya perlu memasukkan ID film yang telah ditonton dan memberikan rating untuk film tersebut. Sistem akan menghasilkan daftar film yang direkomendasikan kepada pengguna berdasarkan mekanisme hybrid Colaborative Filtering dan Content Based Filtering yang telah diimplementasikan.
 
-Dataset :
+[Dataset](https://files.grouplens.org/datasets/movielens/ml-latest-small.zip) :
 Dataset yang digunakan dalam tugas ini adalah ml-latest-small.zip, yang berisikan empat file CSV: ratings.csv, tags.csv, movies.csv, dan links.csv.
 
 File ratings.csv berisi rating film yang telah diberikan oleh pengguna, termasuk ID pengguna, ID film, dan rating.
@@ -24,4 +24,4 @@ File movies.csv berisi informasi mengenai film, termasuk judul, genre, dan deskr
 
 File links.csv berisi tautan ke situs-situs IMDB dan Wikipedia untuk setiap film.
 
-[Dataset](https://files.grouplens.org/datasets/movielens/ml-latest-small.zip) 
+
