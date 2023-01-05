@@ -1,3 +1,5 @@
+## [Dataset](https://files.grouplens.org/datasets/movielens/ml-latest-small.zip)
+
 Tujuan :
 Tujuan dari tugas ini adalah untuk membangun sebuah sistem rekomendasi yang dapat memberikan rekomendasi film kepada pengguna berdasarkan rating film yang telah diberikan oleh pengguna lain, serta konten dari film tersebut.
 
@@ -13,7 +15,7 @@ Kedua mekanisme tersebut akan dikemas dalam arsitektur pipelined, yang akan meme
 Penggunaan :
 Untuk menggunakan sistem rekomendasi ini, pengguna hanya perlu memasukkan ID film yang telah ditonton dan memberikan rating untuk film tersebut. Sistem akan menghasilkan daftar film yang direkomendasikan kepada pengguna berdasarkan mekanisme hybrid Colaborative Filtering dan Content Based Filtering yang telah diimplementasikan.
 
-[Dataset](https://files.grouplens.org/datasets/movielens/ml-latest-small.zip) :
+Dataset :
 Dataset yang digunakan dalam tugas ini adalah ml-latest-small.zip, yang berisikan empat file CSV: ratings.csv, tags.csv, movies.csv, dan links.csv.
 
 File ratings.csv berisi rating film yang telah diberikan oleh pengguna, termasuk ID pengguna, ID film, dan rating.
